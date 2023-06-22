@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #919AAB;
+}
+
+.contain{
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    position: relative;
+    top:300px;
+    left: 750px;
+    background-color: #F3F3F9;
+    border-radius: 10px;
+}
+
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: #1D3153;
+}
+
+.profile-box{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-text{
+    margin-top: 25px;
+    font-weight: bolder;
+    text-align: left;
+    color: #1D3153;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-text p{
+    color: #919AAB;
+}
+
+
+.password-box{
+    margin: 30px 10px 10px 50px;
+    text-align: left;
+}
+
+.password-box p{
+    color: #1D3153;
+    font-weight: 600;
+
+}
+
+.password-box input{
+    height: 20px;
+    width: 75%;
+    margin-top: 5px;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid #1D3153;
+}
+
+.password-box .eye{
+    margin-left: 5px
+}
+
+.btn-sec{
+    position: relative;
+    margin-top: 20px;
+    color: #1D3153;
+}
+
+.btn-sec .tog{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    font-size: 30px;
+}
+
+.btn-sec p{
+    position: absolute;
+    margin-top: 5px;
+    left: 95px;
+    font-size: 15px;
+}
+
+.btn-sec .btn{ 
+    position: absolute;
+    right: 69px;
+    padding: 10px;
+    background-color: #1D3153;
+    color: white;
+    border: 1px solid #1D3153;
+    border-radius: 7px;
+
+}
+
+.reset {
+    margin-top: 5px;
+    position: absolute;
+    font-weight: 600;
+    top: 350px;
+    left: 50px;
+    text-decoration: underline  #1D3153;
+}
